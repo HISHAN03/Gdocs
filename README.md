@@ -1,9 +1,6 @@
 <div align="Left">
   <h1>Gdocs📝</h1>
-  <p>
-    A google docs clone build with react,nodejs,socket.io,mongodb.
-  </p>
-</div>
+
 
 ## Overview🚀
 
