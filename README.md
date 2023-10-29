@@ -65,6 +65,10 @@ To run the app locally, follow these steps:
 
 ## Screenshots
 
+![Screenshot_20231029_130147](https://github.com/HISHAN03/PasswordLess-login/assets/108483712/6d9e811f-fd52-478f-a69e-3c5a681050cc)
+- 
+![Screenshot_20231029_130125](https://github.com/HISHAN03/PasswordLess-login/assets/108483712/9f2e4f89-c3e8-4225-a41e-fecf0ca3d9b5)
+
 
 ## Open to Contribute
 
