@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { io } from "socket.io-client";
 import ResponsiveAppBar from "../components/navbar"
 import BasicCard from "../components/cards"
+import "./home.css"
+import CreateDac from "../components/createDoc/index"
 
 export default function Home() {
   const [socket, setSocket] = useState();
@@ -15,8 +17,8 @@ export default function Home() {
       navigate(`/${documentName}`);
     }
   };
-
-  // Function to handle document button click and redirect to the document
+ 
+ // Function to handle document button click and redirect to the document
   const handleDocumentClick = (document) => {
     const documentName = document._id; // Assuming the document name is stored in the _id property
     navigate(`/${documentName}`);
@@ -39,18 +41,22 @@ export default function Home() {
 
   return (
     <>
+
     <ResponsiveAppBar />
-    <div>
-      <h1>Create a New Document</h1>
-      <input
-        type="text"
-        placeholder="Enter Document Name"
-        value={documentName}
-        onChange={(e) => setDocumentName(e.target.value)}
-      />
-      <button onClick={handleCreateDocument}>Create Document</button>
+    <CreateDac setDocumentName={setDocumentName} />
 
       <div>
+        {/* <h1>Create a New Document</h1>
+        <input
+          type="text"
+          placeholder="Enter Document Name"
+          value={documentName}
+          onChange={(e) => setDocumentName(e.target.value)}
+        />
+        <button onClick={handleCreateDocument}>Create Document</button> */}
+
+        <div className="cards-section">
+          <p className="subhead" >Open recent docs</p>
         {documents.map((document, index) => (
           <BasicCard
             key={index}
@@ -60,6 +66,7 @@ export default function Home() {
         ))}
       </div>
     </div>
+   
   </>
   );
 }

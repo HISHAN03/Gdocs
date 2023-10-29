@@ -1,3 +1,8 @@
 body {
     margin-left: 20px; /* Adjust the margin as needed */
   }
+
+  .cardddddddd:hover {
+    border: 0.5px solid  rgb(98, 123, 189); /* Change "red" to your desired border color */
+  }
+  

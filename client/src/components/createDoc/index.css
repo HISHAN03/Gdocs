@@ -1,0 +1,31 @@
+/* index.css */
+.new-doc-container {
+    background-color: rgb(227, 225, 225);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .new-doc-inner {
+    width: 70%;
+  }
+  
+  #head{
+    font-size: 1rem; /* Increase the font size as needed */
+    font-weight: bold;
+  }
+  
+  .start-doc {
+    width: 150px;
+    cursor: pointer;
+    border: 1px solid #bcbcbc;
+    border-radius: 3px;
+  }
+  
+  .start-doc:hover {
+    border: 1.5px solid #7492de;
+  }
+  
+  .title {
+    margin-top: 0px;
+  }
+  
