@@ -1,24 +1,24 @@
 <div align="Left">
-  <h1>Gdocs🚀</h1>
+  <h1>Gdocs📝</h1>
   <p>
     A google docs clone build with react,nodejs,socket.io,mongodb.
   </p>
 </div>
 
-## Overview
+## Overview🚀
 
 The Google Docs Clone is a collaborative document editor built with Node.js, React, Socket.io, MongoDB, Quill.js, and Material-UI. 
 This application allows multiple users to create, edit, and collaborate on documents in real-time. It offers a seamless and user-friendly experience with automatic document saving, 
 making it easy for teams to work together.
 
-## Features
+## Features ✨
 
  - **Real-time Collaboration**: : Multiple users can collaborate on the same document simultaneously.
  - **Automatic Document Saving**:  No need to manually save documents. The system automatically saves changes, ensuring that your work is always up to date.
  - **History Tracking:n**: Document history and changes are tracked, allowing users to review and revert to previous versions.
 
 
-## Packages  Used
+## Packages  Used📦
 
 - Node.js: JavaScript runtime for server-side scripting.
 - Express.js: Web application framework for Node.js.
@@ -28,7 +28,7 @@ making it easy for teams to work together.
 - Quill.js: Rich text editor for text formatting.
 - Material-UI: UI framework for building modern, responsive web applications.
 
-## Installation
+## Installation🚀
 
 To run the app locally, follow these steps:
 
@@ -63,14 +63,14 @@ To run the app locally, follow these steps:
      Open your browser and go to http://localhost:5173.
 
 
-## Screenshots
+## Screenshots📷
 
 ![Screenshot_20231029_130147](https://github.com/HISHAN03/PasswordLess-login/assets/108483712/6d9e811f-fd52-478f-a69e-3c5a681050cc)
 - 
 ![Screenshot_20231029_130125](https://github.com/HISHAN03/PasswordLess-login/assets/108483712/9f2e4f89-c3e8-4225-a41e-fecf0ca3d9b5)
 
 
-## Open to Contribute
+## Open to Contribute🤝
 
 We welcome contributions from the community. If you'd like to contribute to the development of this project, please follow these steps:
 
