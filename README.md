@@ -1,4 +1,4 @@
-<div align="Left">
+<div align="center">
   <h1>Gdocs📝</h1>
 
 
